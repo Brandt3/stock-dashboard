@@ -8,7 +8,10 @@ The app validates ticker symbols through an API, stores data locally in a SQLite
 - 🔎 **Ticker Search & Validation** — Search for stock data using a ticker symbol with API validation.
 - 🗄️ **SQLite Integration** — Automatically stores and retrieves stock data locally.
 - 📊 **Data Filtering & Visualization** — View selected stock attributes and plot them directly from the Treeview table.
+- ➕ **Add to Watchlist** — Save selected stocks to a local watchlist for quick future access.
+- ↕️ **Sortable Columns** — Sort stock data ascending or descending by clicking column headers.
 - 🧹 **Reset & Refresh Buttons** — Easily clear or reload data without restarting the app.
+- 💾 **Download Data** — Export stock data into a CSV file.
 - 🎨 **Modern UI** — Built with `ttkbootstrap` for a clean, responsive interface.
 
 ## Tech Stack
@@ -27,16 +30,24 @@ The app validates ticker symbols through an API, stores data locally in a SQLite
   - `class_structure.py` — Defines classes for organizing stock data
   - `data_cleanup.py` — Handles the data and cleans it using JSON parsing
   - `db_handler.py` — Manages SQLite database operations
+  - `models.py` — Takes the data and converts it into data visualizations
   - `stock_dashboard_gui.py` — Main application GUI (entry point)
   - `README.md` — Project documentation
-
+  - `test/`
+    - `test_API.py` — Tests the API call to ensure it handles invalid inputs
+    - `test_db_handler.py` — Tests database file creation and basic DB operations
+  - `dist/`
+    - `stock_dashboard_gui.app` — Final standalone executable file. Can be copied and run without Python installed.
 
 ## How It Works
 
 1. Enter a stock ticker symbol into the search bar.
 2. The app validates the ticker via an API call.
 3. If valid, stock data is fetched, stored in SQLite, and displayed in the GUI.
-4. Select specific attributes (e.g., Open, High, Low, Close) to filter the data.
-5. Plot filtered results directly from the displayed table.
-6. Use the Reset button to clear or reload the view as needed.
+4. Select specific attributes (e.g., Open, High, Low, Close) to filter the displayed data.
+5. Add stocks to a **Watchlist** to easily track selected companies.
+6. Click column headers to **sort** the data ascending or descending.
+7. Plot filtered results directly from the displayed table.
+8. Download the displayed stock data into a **CSV file**.
+9. Use the **Reset** button to clear or reload the view as needed.
 
