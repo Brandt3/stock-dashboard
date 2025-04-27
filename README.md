@@ -14,6 +14,12 @@ The app validates ticker symbols through an API, stores data locally in a SQLite
 - 💾 **Download Data** — Export stock data into a CSV file.
 - 🎨 **Modern UI** — Built with `ttkbootstrap` for a clean, responsive interface.
 
+<img width="1443" alt="Screenshot 2025-04-27 at 2 57 04 PM" src="https://github.com/user-attachments/assets/39ec3ead-429d-4305-974a-8bd162901a87" />
+
+<img width="1399" alt="Screenshot 2025-04-27 at 3 02 47 PM" src="https://github.com/user-attachments/assets/a3b275dd-d4cf-43a6-9570-9709eeff033e" />
+
+<img width="1399" alt="Screenshot 2025-04-27 at 3 03 02 PM" src="https://github.com/user-attachments/assets/5858afbd-75b8-4d39-b0c8-9a3ec374078f" />
+
 ## Tech Stack
 
 - **Python 3**
