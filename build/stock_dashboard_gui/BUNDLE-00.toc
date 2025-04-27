@@ -1,0 +1,3 @@
+([('stock_dashboard_gui',
+   '/Users/brandtkonik/PythonFinalProject/project_folder/dist/stock_dashboard_gui',
+   'EXECUTABLE')],)
