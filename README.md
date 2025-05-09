@@ -42,8 +42,6 @@ The app validates ticker symbols through an API, stores data locally in a SQLite
   - `test/`
     - `test_API.py` — Tests the API call to ensure it handles invalid inputs
     - `test_db_handler.py` — Tests database file creation and basic DB operations
-  - `dist/`
-    - `stock_dashboard_gui.app` — Final standalone executable file. Can be copied and run without Python installed.
 
 ## How It Works
 
